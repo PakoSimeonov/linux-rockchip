@@ -373,7 +373,6 @@
 	pinctrl-names = "default";
 	pinctrl-0 = <&sdiom1_pins>;
 	sd-uhs-sdr104;
-	vmmc-supply = <&vcc3v3_sys>;
 	status = "okay";
 };
 
@@ -773,7 +772,7 @@
 	/* rx_delay = <0x3f>; */
 
 	phy-handle = <&rgmii_phy1>;
-	status = "okay";
+	status = "disabled";
 };
 
 &mdio1 {
