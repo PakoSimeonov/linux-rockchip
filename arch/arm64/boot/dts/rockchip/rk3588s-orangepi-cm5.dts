@@ -373,6 +373,7 @@
 	pinctrl-names = "default";
 	pinctrl-0 = <&sdiom1_pins>;
 	sd-uhs-sdr104;
+	vmmc-supply = <&vcc3v3_sys>;
 	status = "okay";
 };
 
