@@ -368,6 +368,8 @@
 	cap-sd-highspeed;
 	cap-sdio-irq;
 	keep-power-in-suspend;
+ 	vmmc-supply = <&vcc3v3_sys>;
+        vqmmc-supply = <&vcc3v3_sys>;
 	mmc-pwrseq = <&sdio_pwrseq>;
 	non-removable;
 	pinctrl-names = "default";
